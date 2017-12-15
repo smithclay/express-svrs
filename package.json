@@ -5,6 +5,8 @@
     "private": true,
     "dependencies": {
         "express": "latest",
+        "aws-xray-sdk": "^1.1.6",
+        "aws-sdk": "^2.170.0",
         "aws-serverless-express": "latest"
     }
 }
