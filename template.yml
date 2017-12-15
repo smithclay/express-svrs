@@ -14,7 +14,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs4.3
-      Tracing: active
+      Tracing: Active
       Role:
         Fn::ImportValue:
           !Join ['-', [!Ref 'ProjectId', !Ref 'AWS::Region', 'LambdaTrustRole']]
