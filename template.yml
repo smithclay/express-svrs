@@ -51,6 +51,16 @@ Resources:
           Properties:
             Path: /
             Method: get
+        ErrorEvent:
+          Type: Api
+          Properties:
+            Path: /error
+            Method: get
+        ExceptionEvent:
+          Type: Api
+          Properties:
+            Path: /exception
+            Method: get
         PostEvent:
           Type: Api
           Properties:
